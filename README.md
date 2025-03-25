@@ -17,7 +17,7 @@ Only the latest version will get new features. Bug fixes will be provided using 
 
 Change composer.json:
 
-```php
+```json
 "repositories": [
     {
         "type": "vcs",
