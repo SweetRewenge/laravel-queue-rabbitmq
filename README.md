@@ -15,10 +15,22 @@ Only the latest version will get new features. Bug fixes will be provided using 
 
 ## Installation
 
-You can install this package via composer using this command:
+Change composer.json:
+
+```php
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/sweetrewenge/laravel-queue-rabbitmq.git"
+    }
+],
+"require": {
+    "sweetrewenge/laravel-queue-rabbitmq": "dev-main"
+},
+```
 
 ```
-composer require vladimir-yuldashev/laravel-queue-rabbitmq
+composer update
 ```
 
 The package will automatically register itself.
